@@ -1,0 +1,136 @@
+/* * {
+    font-family: "Poppins", sans-serif;
+} */
+
+
+h1 {
+    font-size: 45px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    /* animation: flash;  */
+    /* animation: wobble; */
+    animation-duration: 2s;
+}
+
+.div {
+    background-color: #f9b116;
+}
+
+.div:hover {
+    background-color: #000000;
+    animation: wobble;
+    animation-duration: 2s;
+}
+
+.nav-item a {
+    color: white;
+    font-family: Sen, sans-serif;
+}
+
+.nav-item a:hover {
+    color: #000000;
+}
+
+
+.navs a:hover {
+    color: #f9b116;
+    animation: wobble;
+    animation: flash;
+    animation-duration: 2s;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    z-index: 1030;
+    background-color: #f9b116;
+
+}
+
+/* -------------------------------- */
+.first {
+    height: 400px;
+    background-image: url(./images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+/* -------------------------------- */
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    border-radius: 2%;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    animation: heartBeat;
+    animation-duration: 2s;
+    font-weight: 900;
+    background-color: #F9B116 !important;
+    color: white !important;
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+    color: #ffffff !important;
+}
+
+.swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after {
+    font-size: 18px;
+}
+
+.classnext1 {
+    background-color: aqua !important;
+    position: absolute;
+    left: 26%;
+    top: 85%;
+}
+
+.classnext2 {
+    background-color: aqua !important;
+    position: absolute;
+    left: 20%;
+    top: 85%;
+}
+
+.firstnext1 {
+    background-color: aqua !important;
+    position: absolute;
+    left: 15%;
+    top: 55%;
+}
+
+.firstnext2 {
+    position: absolute;
+    right: 15%;
+    top: 55%;
+}
+
+/* ------------------------------- */
+
+.btn1 {
+    color: #ffffff;
+    background-color: #F9B116;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.btn1:hover {
+    color: #000;
+    background-color: white;
+    outline: #fff;
+
+}
+
+.container-fluid img:hover {
+    animation: flip;
+    animation-duration: 2s;
+}
